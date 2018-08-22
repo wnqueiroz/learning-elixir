@@ -1,0 +1,8 @@
+version: '3'
+services: 
+  elixir: 
+    container_name: learning-elixir
+    image: elixir:1.7.2
+    working_dir: /usr/app
+    volumes:
+      - ./lessons:/usr/app
